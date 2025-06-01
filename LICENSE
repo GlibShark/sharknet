@@ -659,3 +659,9 @@ specific requirements.
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
+
+This project has a modified version "Tailwind CSS" The original tailwind is licensed by MIT. 
+-------------------------------< TailWind CSS >---------------------------------------
+// Tailwind CSS | https://tailwindcss.com
+// Tailwind is an open source project licensed under the MIT license
+// https://github.com/tailwindlabs/tailwindcss/blob/master/LICENSE

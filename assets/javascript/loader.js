@@ -1,11 +1,11 @@
-  // Sharknetwork Loader
-  // Copyright (c) 2025 Sharknetwork (informal collective)
-  // Copyright (c) 2025 root_shark
-  // Licensed under the AGPL-3.0 License
-  // See: https://www.gnu.org/licenses/agpl-3.0.html
-  //
-  // This script handles loader. Can load on any website.
-  // <script src="assets/javascript/loader.js"></script>
+// Sharknetwork Loader
+// Copyright (c) 2025 Sharknetwork (informal collective)
+// Copyright (c) 2025 root_shark, glibshark
+// Licensed under the AGPL-3.0 License
+// See: https://www.gnu.org/licenses/agpl-3.0.html
+//
+// This script handles loader.
+// <script src="assets/javascript/loader.js"></script>
 
 (function () {
 
@@ -21,7 +21,7 @@
       top: 0; left: 0;
       width: 100vw;
       height: 100vh;
-      background-color: #ffffff;
+      background-color: #0f172a; 
       z-index: 9999;
       display: flex;
       justify-content: center;
@@ -37,8 +37,8 @@
     .spinner {
       width: 64px;
       height: 64px;
-      border: 6px solid #ddd;
-      border-top: 6px solid #3498db;
+      border: 6px solid #1e293b; 
+      border-top: 6px solid #14b8a6;
       border-radius: 50%;
       animation: spin 1.2s linear infinite;
     }

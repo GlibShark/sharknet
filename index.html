@@ -2,9 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>root_shark</title>
+    <script src="assets/library/tailwind.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
-<script src="assets/javascript/loader.js"></script>
+<body class="bg-gray-900 text-white font-sans">
+    <div class="flex flex-col items-center mt-16 space-y-6">
+        <img src="assets/image/avatar.png" alt="Avatar" class="w-48 h-48 rounded-full object-cover shadow-2xl border-2 border-teal-500">
+        <h1 class="text-4xl font-bold tracking-wide">root_shark</h1>
+        <p class="text-lg text-gray-300 text-center max-w-xl px-4">
+            A programmer with a poetic soul. I write simply, yet deeply.
+        </p>
+        <div class="flex space-x-6">
+            <a href="https://github.com/GlibShark" class="bg-gray-800 hover:bg-gray-700 text-gray-300 px-4 py-2 rounded-xl shadow hover:shadow-teal-500/50 transition flex items-center space-x-2" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.google.com/search?client=firefox-b-d&q=my+discord+channel+coming+soon" class="bg-gray-800 hover:bg-gray-700 text-gray-300 px-4 py-2 rounded-xl shadow hover:shadow-teal-500/50 transition flex items-center space-x-2" target="_blank">
+                <i class="fab fa-discord"></i>
+                <span>Discord</span>
+            </a>
+            <a href="mailto:sharknet.host@gmail.com" class="bg-gray-800 hover:bg-gray-700 text-gray-300 px-4 py-2 rounded-xl shadow hover:shadow-teal-500/50 transition flex items-center space-x-2">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+
+        <section class="mt-10 w-full max-w-4xl px-6">
+            <h2 class="text-2xl font-semibold mb-4 border-b border-teal-500 pb-2">My Skills:</h2>
+            <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 text-sm text-gray-200">
+                <a href="https://isocpp.org/" target="_blank" class="flex flex-col items-center justify-center bg-gray-800 hover:bg-teal-600 px-3 py-2 rounded-xl transition shadow">
+                    <i class="fab fa-cuttlefish text-xl"></i>
+                    <span>C++</span>
+                </a>
+                <a href="https://www.python.org/" target="_blank" class="flex flex-col items-center justify-center bg-gray-800 hover:bg-teal-600 px-3 py-2 rounded-xl transition shadow">
+                    <i class="fab fa-python text-xl"></i>
+                    <span>Python</span>
+                </a>
+                <a href="https://www.rust-lang.org/" target="_blank" class="flex flex-col items-center justify-center bg-gray-800 hover:bg-teal-600 px-3 py-2 rounded-xl transition shadow">
+                    <i class="fas fa-gears text-xl"></i>
+                    <span>Rust</span>
+                </a>
+                <a href="https://go.dev/" target="_blank" class="flex flex-col items-center justify-center bg-gray-800 hover:bg-teal-600 px-3 py-2 rounded-xl transition shadow">
+                    <i class="fab fa-golang text-xl"></i>
+                    <span>Go</span>
+                </a>
+                <a href="https://kotlinlang.org/" target="_blank" class="flex flex-col items-center justify-center bg-gray-800 hover:bg-teal-600 px-3 py-2 rounded-xl transition shadow">
+                    <i class="fas fa-code text-xl"></i>
+                    <span>Kotlin</span>
+                </a>
+                <a href="https://www.oracle.com/java/" target="_blank" class="flex flex-col items-center justify-center bg-gray-800 hover:bg-teal-600 px-3 py-2 rounded-xl transition shadow">
+                    <i class="fab fa-java text-xl"></i>
+                    <span>Java</span>
+                </a>
+            </div>
+        </section>
+
+<section class="mt-10 w-full max-w-4xl px-6">
+    <h2 class="text-2xl font-semibold mb-4 border-b border-teal-500 pb-2">Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-gray-800 p-4 rounded-xl shadow hover:shadow-teal-500/50 transition">
+            <h3 class="text-xl font-bold mb-2">This website</h3>
+            <p class="text-gray-400 text-sm">Writed with using html, js, tailwind. Just a nice website</p>
+        </div>
+        <div class="bg-gray-800 p-4 rounded-xl shadow hover:shadow-teal-500/50 transition">
+            <h3 class="text-xl font-bold mb-2">Arduino CMD (Now in development)</h3>
+            <p class="text-gray-400 text-sm">Small driver to control cmd from arduino.</p>
+        </div>
+    </div>
+</section>
+
+    </div>
+    <script src="assets/javascript/loader.js"></script>
+    <script src="assets/javascript/footer.js"></script>
+    <script src="assets/javascript/topbar.js"></script>  
 </body>
 </html>

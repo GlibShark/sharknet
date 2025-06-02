@@ -10,8 +10,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navLinks = [
     { text: "Home", href: "/" },
-    { text: "Projects", href: "#projects" },
-    { text: "Contact", href: "mailto:sharknet.host@gmail.com" },
   ];
 
   const topbar = document.createElement("div");
@@ -19,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "fixed top-0 left-0 w-full bg-gray-950 bg-opacity-80 text-white flex justify-between items-center px-6 py-3 shadow-lg z-50 backdrop-blur";
 
   const logo = document.createElement("div");
-  logo.className = "text-xl font-bold text-teal-400 animate-fade-in";
+  logo.className = "text-xl font-bold";
   logo.textContent = "root_shark";
 
   const linksContainer = document.createElement("div");
